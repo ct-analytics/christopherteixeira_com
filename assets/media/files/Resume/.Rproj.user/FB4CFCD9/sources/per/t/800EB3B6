@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572227243415.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2136748730",
+    "id" : "800EB3B6",
+    "lastKnownWriteTime" : 1571617035,
+    "last_content_update" : 1571617035,
+    "path" : "~/Google Drive/R/Resume/parsing_functions.R",
+    "project_path" : "parsing_functions.R",
+    "properties" : {
+        "cursorPosition" : "103,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

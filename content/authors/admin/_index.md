@@ -1,39 +1,36 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Christopher Teixeira
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Department Chief Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The MITRE Corporation
+    url: https://www.mitre.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include using my skills for the public good and playing with baseball data.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Analytics
+  - Applied Statistics
+  - Operations Research
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+  - course: MS in Operations Research
+    institution: George Mason University
+    year: 2010
+  - course: BSc in Mathematics
+    institution: Worcester Polytechnic Institute
+    year: 2006
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -45,16 +42,16 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://twitter.com/CT_Analytics
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=rBKnQG0AAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/ct-analytics
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/christopherteixeira/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -67,11 +64,9 @@ social:
 email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Christopher Teixeira is a Department Chief Engineer in the Public Health Systems Innovation and Transformation Department within the CMS Alliance to Modernize Healthcare (Health) Federally Funded Research and Development Center (FFRDC). He’s responsible for providing his expertise in statistics, applied probability, modeling and simulation, and operations research to a variety of challenges that the federal government faces. In particular, he works directly with multiple federal agencies to identify potential solutions to the challenges they face and how best to use data to drive decisions they need to make. This includes helping them distinguish between the advantages and differences of varying analytical techniques. This breadth of knowledge and applications has led Chris towards becoming an expert at shaping efforts with sponsors including writing the contract language, cost proposals, and technical proposals across multiple efforts over the years. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Chris served in a variety of roles over the course of his career at MITRE. He first joined as an individual contributor serving several sponsors by applying his background in Applied Statistics and Operations Research. This includes supporting multiple federally funded research and development centers across a variety of projects, such as supporting the Department of Energy in understanding how to safely and effectively treat nuclear waste and helping the Veterans Benefits Administration use sophisticated modeling techniques to better serve veterans. Recently, Christopher led a project that used a variety of advanced analytical techniques to define and identify opioid prescribing behaviors. In this role, he led a team of 20 data scientists and presented this material in public meetings to a group of Chief Medical Officers, State Commissioners, public health experts, and data scientists. He earned an M.S. in operations research from George Mason University and a B.S. in mathematics from Worcester Polytechnic Institute. 
