@@ -12,3 +12,4 @@ go.sum
 
 # OS
 .DS_Store
+.Rproj.user
