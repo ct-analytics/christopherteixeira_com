@@ -30,7 +30,9 @@ experience:
     date_start: '2014-07-01'
     date_end: ''
     description: |2-
-        Serves in many roles from individual contributor to technical lead and integrator. Exhibits expertise in a multitude of areas including technical solutions, communication skills, creativity, and vision to deliver a diverse set of technical solutions across different FFRDCs. 
+        As Principal Data Scientist, I apply my expertise in machine learning, statistical modeling, data engineering, and data visualization to lead teams through solving some of the federal government's largest challenges. I provide oversight to a number of projects each year that includes reviewing code, establishing technical approaches to public health challenges, and meeting with customers to align projects with their challenges. 
+        
+        I apply my data science expertise to business development activities through drafting proposals, refining hiring processes, and establishing a system for rewarding projects that impact public health. In addition, I've reviewed research proposals for our internal research program and advise research teams in developing materials to communicate their technical concepts to broader audiences. 
 
   - title: Senior Analytic Consultant
     company: Epsilon
