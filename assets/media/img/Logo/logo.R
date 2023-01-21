@@ -47,7 +47,7 @@ logo <- logo.dots %>%
   
 ggplot(logo,aes(x=x,y=y,color=color)) + 
   geom_point() +
-  scale_color_manual(values=c("#CCCCCC","#212529")) +
+  scale_color_manual(values=c("#0088CC","#212529")) +
   theme(
         panel.background = element_rect(fill="transparent",
                                         color=NA),
