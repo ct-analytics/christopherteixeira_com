@@ -1,0 +1,594 @@
+---
+format: 
+    revealjs:
+        logo: img/https___comm.mitre.org_strategiccommunications_wp-content_uploads_sites_170_2020_01_MITRE_logos_Base.svg
+        # footer: "© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1."
+        theme: mitre-template.scss
+        disable-layout: false
+        width: 1350
+        self-contained: true
+        preload-iframes: true
+        preview-links: true
+        email-obfuscation: javascript
+        # pdf-separate-fragments: false
+        
+        # width: 100%
+        # height: 100%
+        # slide-number: true
+        # preview-links: auto
+        
+---
+
+# When Machine Learning Fails...
+
+<span id="name">Christopher Teixeira</span><br>
+`r format(Sys.Date(), "%B %d, %Y")`
+
+::: {.footer id="release-clause"}
+The author's affiliation with The MITRE Corporation is provided for identification pusposes only, and is not intended to convey or imply MITRE's concurrence with, or support for, the positions, opinions or viewpoints expressed by the author. 
+:::
+
+## A little about me...
+
+:::: {.columns}
+<!-- ::: {.column width="80%" text-align="center"} -->
+::: {.column width="70%"}
+<br>
+
+### Christopher Teixeira {id="name"}
+### Principal Data Scientist
+### The MITRE Corporation
+
+<br><br>
+
+::::{.columns}
+::: {.column width="45%"}
+#### Interests
+
+- Data Analytics
+- Applied Statistics
+- Operations Research
+
+:::
+
+::: {.column width="45%"}
+#### Education
+
+- MS in Operations Research, George Mason University
+- BSc in Mathematics, Worcester Polytechnic Institute
+
+:::
+::::
+
+:::
+
+::: {.column width="30%"}
+
+![](img/profile.png){fig-align="center"}
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What is machine learning?
+
+Machine Learning is the study of computer algorithms that improve automatically through experience. Applications range from data mining programs that discover general rules in large data sets to information filtering systems that automatically learn users' interests.
+<br><br><br>
+
+::::{.columns}
+::: {.column width="30%"}
+#### Supervised Learning
+
+![](img/supervised_learning.png){fig-align="center" id="icons"}
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Unsupervised Learning
+
+![](img/unsupervised_learning.png){fig-align="center" id="icons"}
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Reinforcement Learning
+
+![](img/reinforcement_learning.png){fig-align="center" id="icons"}
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What can it be used for? {auto-animate="true"}
+
+<br> 
+
+:::: {.columns}
+::: {.column width="30%"}
+#### Supervised Learning
+
+- Determine the likelihood of buying an item
+- Translating handwriting
+- Tomorrow’s weather forecast
+- Sending incoming email to a SPAM folder
+- Predicting sale price for a house
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Unsupervised Learning
+
+- Customer segmentation 
+- Simplify complex feature sets
+- Anomaly detection
+- Recommender systems
+- Determine communities in a social network
+- Identify topics covered across a series of documents
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Reinforcement Learning
+
+- Autonomous driving
+- Automated stock trading
+- Dynamic medical diagnoses and treatments
+- Artificial players in games
+- Dynamic recommender systems
+- Serving up real-time advertising
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What can it be used for? {auto-animate="true"}
+
+<br> 
+
+:::: {.columns}
+::: {.column width="30%"}
+#### Supervised Learning
+
+- Determine the likelihood of buying an item
+- Translating handwriting
+
+::: {id="text-highlight"}
+- Tomorrow’s weather forecast
+:::
+- Sending incoming email to a SPAM folder
+- Predicting sale price for a house
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Unsupervised Learning
+
+- Customer segmentation 
+- Simplify complex feature sets
+- Anomaly detection
+- Recommender systems
+- Determine communities in a social network
+- Identify topics covered across a series of documents
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Reinforcement Learning
+
+- Autonomous driving
+- Automated stock trading
+- Dynamic medical diagnoses and treatments
+- Artificial players in games
+- Dynamic recommender systems
+- Serving up real-time advertising
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What can it be used for? {auto-animate="true"}
+
+<br> 
+
+:::: {.columns}
+::: {.column width="30%"}
+#### Supervised Learning
+
+- Determine the likelihood of buying an item
+- Translating handwriting
+- Tomorrow’s weather forecast
+- Sending incoming email to a SPAM folder
+- Predicting sale price for a house
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Unsupervised Learning
+
+::: {id="text-highlight"}
+- Customer segmentation 
+:::
+- Simplify complex feature sets
+- Anomaly detection
+- Recommender systems
+- Determine communities in a social network
+- Identify topics covered across a series of documents
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Reinforcement Learning
+
+- Autonomous driving
+- Automated stock trading
+- Dynamic medical diagnoses and treatments
+- Artificial players in games
+- Dynamic recommender systems
+- Serving up real-time advertising
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What can it be used for? {auto-animate="true"}
+
+<br> 
+
+:::: {.columns}
+::: {.column width="30%"}
+#### Supervised Learning
+
+- Determine the likelihood of buying an item
+- Translating handwriting
+- Tomorrow’s weather forecast
+- Sending incoming email to a SPAM folder
+- Predicting sale price for a house
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Unsupervised Learning
+
+- Customer segmentation 
+- Simplify complex feature sets
+- Anomaly detection
+- Recommender systems
+- Determine communities in a social network
+- Identify topics covered across a series of documents
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+#### Reinforcement Learning
+
+- Autonomous driving
+- Automated stock trading
+- Dynamic medical diagnoses and treatments
+
+::: {id="text-highlight"}
+- Artificial players in games
+:::
+- Dynamic recommender systems
+- Serving up real-time advertising
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+# Machine learning examples
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Machine learning can be pretty amazing 
+
+#### Search and rescue with airborne optical sectioning 
+
+::: {style="text-align: right;"}
+
+[![](img/search_and_rescue.png)](https://www.nature.com/articles/s42256-020-00261-3){class="center" fig-alt="Search and rescue with airborne optical sectioning"}
+<span class="img-caption">Source: Nature.com</span>
+
+:::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Machine learning can be pretty amazing
+
+#### Using Data to Create Paths out of Homelessness
+
+::: {style="text-align: right;"}
+
+[![](img/homelessness.png)](https://www.datakind.org/projects/using-data-to-create-paths-out-of-homelessness){fig-alt="Using Data to Create Paths out of Homelessness" class="center"}
+<span class="img-caption">Source: DataKind.org</span>
+
+:::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Sometimes things can go wrong... 
+
+::::{.columns}
+:::{.column width="60%"}
+
+#### Racial bias in health algorithms 
+
+The U.S. health care system uses commercial algorithms to guide health decisions. Obermeyer et al. find evidence of racial bias in one widely used algorithm, such that <span id="text-highlight">Black patients assigned the same level of risk by the algorithm are sicker than White patients</span> (see the Perspective by Benjamin). The authors estimated that this racial bias reduces the number of Black patients identified for extra care by more than half. <span id="text-highlight">Bias occurs because the algorithm uses health costs as a proxy for health needs.</span> Less money is spent on Black patients who have the same level of need, and the algorithm thus falsely concludes that Black patients are healthier than equally sick White patients. Reformulating the algorithm so that it no longer uses costs as a proxy for needs eliminates the racial bias in predicting who needs extra care.
+:::
+
+:::{.column width="35%"}
+
+![](img/racial_bias_algorithms.png){fig-alt="Racial bias in health algorithms" class="center"}
+
+<span class="img-caption">Credit: The Washington Post; iStock</span>
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Sometimes they can be even worse...
+
+::::{.columns}
+:::{.column width="60%"}
+
+#### Child abuse and neglect fatalities
+
+Illinois Department of Child and Family Services used an algorithm for determining future risk of abuse or neglect.
+
+<br>
+
+However, several children were found dead after having received a score of “0”, or very little risk of abuse or neglect. 
+
+:::
+
+:::{.column width="35%" layout-valign="center"}
+
+![](img/child_abuse.png){class="center"}
+
+<span class="img-caption">Credit: Chicago Tribute</span>
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+# What do you think causes these issues?
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## {background-iframe="https://embed.polleverywhere.com/free_text_polls/kPRDud1nAy194FV7mDj2V?controls=none&short_poll=true"}
+
+# What can you do to avoid these issues?
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Consider the typical lifecycle for a machine learning project
+
+::::{.columns}
+:::{.column width="50%"}
+<br>
+
+- Each step presents the possibility to introduce errors
+- Experience will help prevent the most common issues
+- Communication can be the most important skill to avoid common issues
+- Some aspects might be out of your control, like how the model is integrated into a larger system
+
+:::
+
+:::{.column width="50%"}
+
+![](img/microsoft%20data%20science%20lifecycle.png){class="center"}
+<span class="img-caption">Source: Microsoft</span>
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Consider the business case or problem
+
+![](img/business_case.png){class="center"}
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Data, data, data
+
+::::{.columns}
+:::{.column width="50%"}
+<br>
+
+- Did you examine the data you collected?
+- Did you introduce any bias in how it was cleaned? 
+- How did you deal with missing data or outliers?
+- Did something change in the data pipeline?
+- How did you calculate that feature?
+:::
+
+:::{.column width="50%" style="text-align: right;"}
+
+![](img/data_wrangling.jpg){class="center"}
+<span class="img-caption">Credit: Astera</span>
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Verify and validate your model results
+
+::::{.columns}
+:::{.column width="55%"}
+<br>
+
+- How did you sample your training dataset? 
+- Did you count for potential bias across time? 
+- Does your model use data in an appropriate way? 
+- How adaptable is your model to other similar problems?
+- Did you set model performance thresholds before testing?
+:::
+
+:::{.column width="45%"}
+
+![](img/verify_and_validate.png){class="center"}
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Implementation and monitoring the model results
+
+::::{.columns}
+:::{.column width="60%"}
+<br />
+
+- Did your model get inserted into the business process correctly? 
+- Are staff checking the model results and performance over time?
+- How adaptable is your model to similar problems or situations?
+- Do the users or people it affects understand and approve?
+- Is there a new policy or change in behavior behind how the model is created? 
+:::
+
+:::{.column width="40%"}
+
+![](img/implementation.png)
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## What other considerations should you keep in mind?
+
+- <span id="text-highlight">Identify the problem/hypothesis/business case:</span> is machine learning the right tool for the job?
+- <span id="text-highlight">Gather data, evidence:</span> what data is best for helping explain or address the problem?
+- <span id="text-highlight">Build the model:</span> how do you structure the data? what are you expecting to learn?
+- <span id="text-highlight">Interpret the results:</span> what do the results tell you? Do your stakeholders buy-in on the results?
+- <span id="text-highlight">Implement the model:</span> how does this fit in to your business? Will non-data scientists understand the model and how its used?
+- <span id="text-highlight">Monitor the results:</span> does the model performance shift? Was there an inherit shift in the behavior or system your modeling? Do you have the resources to maintain the model?
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Reach out to discuss!
+
+::::{.columns}
+:::{.column width="50%"}
+
+<br>
+
+Christopher Teixeira
+
+{{< fa solid envelope >}} [cteixeira@mitre.org](mailto:cteixeira@mitre.org) <br />
+{{< fa brands twitter >}} [@ct_analytics](https://twitter.com/CT_Analytics) <br />
+{{< fa brands linkedin-in >}} [linkedin.com/in/christopherteixeira](https://www.linkedin.com/in/christopherteixeira/) <br />
+
+:::
+
+:::{.column width="50%"}
+
+![](img/xkcd_machine_learning.png){class="center"}
+
+:::
+::::
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+# Additional Material
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+## Types of Machine Learning
+<br>
+<span id="text-highlight">Supervised learning</span> is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. ^[Stuart J. Russell, Peter Norvig (2010) Artificial Intelligence: A Modern Approach, Third Edition, Prentice Hall ISBN 9780136042594.]<br><br>
+<span id="text-highlight">Unsupervised learning</span> algorithms infer patterns from a dataset without reference to the known, or labeled, outcomes. ^[DataRobot. Unsupervised Machine Learning. Accessed on March 12, 2021.]<br><br>
+<span id="text-highlight">Reinforcement learning</span> is concerned with how intelligent agents learn overtime by interacting with their environment and balancing exploration and exploitation. ^[Kaelbling, Leslie P.; Littman, Michael L.; Moore, Andrew W.(1996). "Reinforcement Learning: A Survey". Journal of Artificial Intelligence Research. 4: 237–285. arXiv:cs/9605103.]
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+:::
+
+<!-- ## Additional Resources on these topics
+
+[GO FAIR](https://www.go-fair.org/fair-principles/) - GO FAIR is a bottom-up, stakeholder-driven and self-governed initiative that aims to implement the FAIR data principles, making data Findable, Accessible, Interoperable and Reusable (FAIR). 
+
+::: footer
+© 2022 THE MITRE CORPORATION. ALL RIGHTS RESERVED. Approved for public release; distribution unlimited. Case number 22-02550-1.
+::: -->

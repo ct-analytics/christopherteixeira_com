@@ -53,8 +53,7 @@ image:
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides: "When Machine Learning Fails.html"
-
-# url_code: "When Machine Learning Fails.html"
+url_code: "event/when-machine-learning-fails-dublin/When Machine Learning Fails.qmd"
 # url_pdf:
 # url_video:
 
