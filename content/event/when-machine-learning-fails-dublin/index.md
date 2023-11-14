@@ -17,7 +17,7 @@ abstract: Machine learning can be used to examine a variety of challenges. Howev
 
 date: 2022-10-27
 # date_end: 2023-01-25T14:53:44-05:00
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT event date).
 # publishDate: 2023-01-25T14:53:44-05:00
