@@ -3,11 +3,11 @@
 
 title: "Categorizing Pitches in Baseball"
 
-event: Talk for MORSE Corp
+event: Technical talk for different groups of folks interested in the intersection of baseball and machine learning.
 
-location: In-person
+# location: In-person
 
-summary: A technical talk offered to a group at MORSE Corp.
+summary: Technical talk for different groups of folks interested in the intersection of baseball and machine learning.
 
 abstract: Determine what pitch is thrown seems simple at first but is complicated by the fact that every pitch is slightly different. 
 
@@ -16,7 +16,7 @@ abstract: Determine what pitch is thrown seems simple at first but is complicate
 
 date: 2023-10-20
 # date_end: 2023-01-25T14:53:44-05:00
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT event date).
 publishDate: 2023-10-15T14:53:44-05:00
