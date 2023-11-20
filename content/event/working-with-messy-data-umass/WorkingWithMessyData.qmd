@@ -310,8 +310,8 @@ plt.show()
     - Was the way data was being capture changed? 
     - Did the range of values change? 
     - Do the values represent something different?
-- Does it make sense to replacing missing values?
-  - If a variable is mostly missing, replacing it with any method could lead 
+- Does it make sense to replace missing values?
+  - If a variable is mostly missing, replacing it with any method could lead false conclusions.
 
 :::
 
