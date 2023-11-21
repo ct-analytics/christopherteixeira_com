@@ -65,6 +65,76 @@ email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
+
+skills:
+  - name: Technical
+    items:
+    - name: Python
+      description: ''
+      percent: 75
+      icon: python
+      icon_pack: fab
+    - name: R
+      description: ''
+      percent: 100
+      icon: r-project
+      icon_pack: fab
+    - name: Statistics
+      description: ''
+      percent: 75
+      icon: chart-bar
+      icon_pack: fab
+    - name: Data Science
+      description: ''
+      percent: 100
+      icon: chart-area
+      icon_pack: fas
+    - name: SQL
+      description: ''
+      percent: 40
+      icon: database
+      icon_pack: fas
+    - name: SAS
+      description: ''
+      percent: 50
+      icon: chart-pie
+      icon_pack: fas
+    - name: Operations Research
+      description: ''
+      percent: 75
+      icon: diagram-project
+      icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 50
+        icon: person-hiking
+        icon_pack: fas
+      - name: Dogs
+        description: ''
+        percent: 100
+        icon: dog
+        icon_pack: fas
+      - name: Baseball
+        description: ''
+        percent: 100
+        icon: baseball-ball
+        icon_pack: fas
+      - name: Football
+        description: ''
+        percent: 75
+        icon: football-ball
+        icon_pack: fas
+      - name: Running
+        description: ''
+        percent: 50
+        icon: running
+        icon_pack: fas
+
+
 ---
 
 Christopher Teixeira is a Department Chief Engineer in the Public Health Systems Innovation and Transformation Department within the CMS Alliance to Modernize Healthcare (Health) Federally Funded Research and Development Center (FFRDC). He’s responsible for providing his expertise in statistics, applied probability, modeling and simulation, and operations research to a variety of challenges that the federal government faces. In particular, he works directly with multiple federal agencies to identify potential solutions to the challenges they face and how best to use data to drive decisions they need to make. This includes helping them distinguish between the advantages and differences of varying analytical techniques. This breadth of knowledge and applications has led Chris towards becoming an expert at shaping efforts with sponsors including writing the contract language, cost proposals, and technical proposals across multiple efforts over the years. In addition, as Chief Engineer, Chris provides oversight to an average of 10 projects a year, ensuring sounds technical approaches and designing risk mitigation strategies.
