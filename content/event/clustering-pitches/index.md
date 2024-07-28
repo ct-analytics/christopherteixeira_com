@@ -50,7 +50,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: "presentation.html"
+url_slides: "event/clustering-pitches/presentation.html"
 url_code: "event/clustering-pitches/presentation.qmd"
 # url_pdf:
 # url_video:
@@ -61,7 +61,7 @@ url_code: "event/clustering-pitches/presentation.qmd"
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 # slides: "When Machine Learning Fails.html"
-slides: ""
+# slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
