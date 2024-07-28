@@ -56,7 +56,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: "WorkingWithMessyData.html"
+url_slides: "event/working-with-messy-data-umass/WorkingWithMessyData.html"
 url_code: "event/working-with-messy-data-umass/WorkingWithMessyData.qmd"
 # url_pdf:
 # url_video:
@@ -67,7 +67,7 @@ url_code: "event/working-with-messy-data-umass/WorkingWithMessyData.qmd"
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 # slides: "When Machine Learning Fails.html"
-slides: ""
+# slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
