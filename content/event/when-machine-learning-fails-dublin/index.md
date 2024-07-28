@@ -52,7 +52,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: "When Machine Learning Fails.html"
+url_slides: "event/when-machine-learning-fails-dublin/When Machine Learning Fails.html"
 url_code: "event/when-machine-learning-fails-dublin/When Machine Learning Fails.qmd"
 # url_pdf:
 # url_video:
@@ -63,7 +63,7 @@ url_code: "event/when-machine-learning-fails-dublin/When Machine Learning Fails.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 # slides: "When Machine Learning Fails.html"
-slides: ""
+# slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
