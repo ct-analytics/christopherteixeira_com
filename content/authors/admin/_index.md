@@ -5,6 +5,10 @@ title: Christopher Teixeira
 # Is this the primary user of the site?
 superuser: true
 
+first_name: Christopher
+last_name: Teixeira
+highlight_name: true
+
 # Role/position/tagline
 role: Department Chief Engineer
 
@@ -24,34 +28,39 @@ interests:
 
 # Education to show in About widget
 education:
-  courses:
-  - course: MS in Operations Research
+  - area: MS in Operations Research
     institution: George Mason University
-    year: 2010
-  - course: BSc in Mathematics
+    date_start: 2008-08-01
+    date_end: 1010-12-31
+    summary: |
+      Optimizing team assignments for a local softball league based on historical statistics, player preferances, and competitiveness.
+    button:
+      text: 'Read more'
+      url: 'https://christopherteixeira.com/project/nvss/'
+  - area: BS in Mathematics
     institution: Worcester Polytechnic Institute
-    year: 2006
+    date_start: 2002-08-01
+    date_end: 2006-05-31
+    summary: |
+      Using play-by-play data to identify a better measure for defensive production in major league baseball and identify bias in voting for silver slugger.
+    button:
+      text: 'Read more'
+      url: 'https://christopherteixeira.com/project/mqp/'
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/CT_Analytics
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=rBKnQG0AAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/ct-analytics
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/christopherteixeira/
+profiles:
+  - icon: fas/envelope
+    url: '/#contact'
+  - icon: ai/google-scholar
+    url: https://scholar.google.com/citations?user=rBKnQG0AAAAJ&hl=en
+  - icon: fab/github
+    url: https://github.com/ct-analytics
+  - icon: fab/linkedin
+    url: https://www.linkedin.com/in/christopherteixeira/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -62,9 +71,6 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
 
 skills:
   - name: Technical
