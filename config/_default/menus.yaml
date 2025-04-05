@@ -4,24 +4,47 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: About
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
+  - name: Skills
+    url: /#skills
     weight: 11
+  - name: Experience
+    url: /#experience
+    weight: 12
+  - name: Posts
+    url: /#posts
+    weight: 13
+    
+  - name: Projects
+    identifier: projects
+    url: /#projects
+    weight: 20
+  - name: MITRE
+    parent: projects
+    url: tags/mitre
+    weight: 21
+  - name: Epsilon
+    parent: projects
+    url: tags/epsilon
+    weight: 22
+  - name: IBM
+    parent: projects
+    url: tags/ibm
+    weight: 23
+  - name: SAIC
+    parent: projects
+    url: tags/saic
+    weight: 24
+  - name: Other
+    parent: projects
+    url: tags/other
+    weight: 25
+
   - name: Talks
     url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
-    weight: 20
-  - name: Projects
-    url: projects/
     weight: 30
-  - name: Teaching
-    url: teaching/
+  - name: Resume
+    url: files/CTeixeira_Resume.pdf
     weight: 40
