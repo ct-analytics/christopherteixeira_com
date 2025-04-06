@@ -120,7 +120,7 @@ email: ''
 skills:
   - name: Competencies
     items:
-    - name: Math
+    - name: Mathematics
       description: ''
       percent: 75
       icon: custom/calculator-solid
