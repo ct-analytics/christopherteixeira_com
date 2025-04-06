@@ -220,12 +220,12 @@ def lambda_handler(event, context):
 
 While updating the code for python, I had to update the list of environment variables. I settled on some additional variables to support the email address formatting. 
 
-**MailRecipient**: Gmail address I forward emails to.
-**MailS3Bucket**: S3 bucket that receives email. 
-**MailS3Prefix**: S3 bucket prefix.
-**MailSender**: AWS SES email address
-**MailSenderDisplayName**: String for the display name.
-**Region**: Region of the S3 bucket.
+- **MailRecipient**: Gmail address I forward emails to.
+- **MailS3Bucket**: S3 bucket that receives email. 
+- **MailS3Prefix**: S3 bucket prefix.
+- **MailSender**: AWS SES email address
+- **MailSenderDisplayName**: String for the display name.
+- **Region**: Region of the S3 bucket.
 
 ## There's still more to do...
 
