@@ -1,0 +1,97 @@
+---
+# Leave the homepage title empty to use the site title
+title: ""
+date: 2025-03-29
+type: landing
+
+design:
+  # Default section spacing
+  spacing: "3rem"
+
+sections:
+  # - block: resume-biography-3
+  #   content:
+  #     username: admin
+  #     text: ""
+  #     button:
+  #       text: Schedule a talk
+  #       url: uploads/resume.pdf
+  - block: resume-biography
+    content:
+      username: admin
+      text: ""
+      button:
+        text: Schedule a talk
+        url: uploads/resume.pdf
+  - block: resume-skills
+    id: skills
+    content: 
+      title: Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+  - block: resume-experience
+    id: experience
+    content:
+      username: admin
+    design: 
+      date_format: 'January 2006'
+      is_education_first: true
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ''
+      page_type: post
+      count: 3
+      filters:
+        folders:
+          - post
+        author: ''
+        category: ''
+        tag: ''
+        publication_type: ''
+        featured_only: false
+      offset: 0
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # view: article-grid
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      subtitle: ''
+      text: 'This list of projects represents the details of my experience across my career and how I supported customers’ decision making on complex challenges.'
+      count: 6
+      filters:
+        folders:
+          - project
+        author: ''
+        category: ''
+        tag: ''
+        publication_type: ''
+        featured_only: false
+      offset: 0
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      view: article-grid
+      columns: 3
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: date-title-summary
+      columns: 1
+---
