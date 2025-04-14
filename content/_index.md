@@ -25,12 +25,12 @@ sections:
       #   # icon: custom/person-chalkboard-solid.svg
       #   icon: brands/linkedin
       #   url: https://calendar.app.google/GjvengVJdwvRCsXL6
-  - block: cta-card
-    content:
-        title: test
-        text: this is some text
-        button: 
-          text: test
+  # - block: cta-card
+  #   content:
+  #       title: test
+  #       text: this is some text
+  #       button: 
+  #         text: test
   - block: cta-button-list
     content:
       buttons:
