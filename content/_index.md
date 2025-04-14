@@ -31,6 +31,20 @@ sections:
   #       text: this is some text
   #       button: 
   #         text: test
+  # - block: features
+  #   content: 
+  #     title: test features
+  #     text: this is some text
+  #     items:
+  #       - name: this is a name
+  #         description: this is a description
+  #         icon: custom/person-chalkboard-solid
+  #       # - name: this is a name
+  #       #   description: this is a description
+  #       #   icon: custom/person-chalkboard-solid
+  #       # - name: this is a name
+  #       #   description: this is a description
+  #       #   icon: custom/person-chalkboard-solid
   - block: cta-button-list
     content:
       buttons:
