@@ -20,9 +20,29 @@ sections:
     content:
       username: admin
       text: ""
-      button:
-        text: Schedule a talk
-        url: uploads/resume.pdf
+      # button:
+      #   text: Schedule a talk
+      #   # icon: custom/person-chalkboard-solid.svg
+      #   icon: brands/linkedin
+      #   url: https://calendar.app.google/GjvengVJdwvRCsXL6
+  - block: cta-card
+    content:
+        title: test
+        text: this is some text
+        button: 
+          text: test
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: Schedule a lecture
+          icon: custom/person-chalkboard-solid
+          url: https://calendar.app.google/GjvengVJdwvRCsXL6
+        # - title: Watch my new YouTube video to achieve 20x productivity
+        #   icon: custom/baseball-solid
+        #   url: https://youtube.com
+        # - title: Connect with me on LinkedIn
+        #   icon: brands/linkedin
+        #   url: https://linkedin.com
   - block: resume-skills
     id: skills
     content: 
