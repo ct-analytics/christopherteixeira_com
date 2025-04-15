@@ -6,7 +6,8 @@
 # Appearance
 appearance:
   mode: system
-  color: color_scheme
+  # color: color_scheme
+  color: sky
 
 # SEO
 marketing:
