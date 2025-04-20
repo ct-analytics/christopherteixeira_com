@@ -33,7 +33,7 @@ education:
     date_start: 2008-08-01
     date_end: 1010-12-31
     summary: |
-      Optimizing team assignments for a local softball league based on historical statistics, player preferances, and competitiveness.
+      Concentration in decision analysis. Capstone project working directly for a non-profit creating a software that optimized team assignments for a local softball league based on historical statistics, player preferances, and competitiveness.
     button:
       text: 'Read more'
       url: 'https://christopherteixeira.com/project/nvss/'
@@ -42,7 +42,7 @@ education:
     date_start: 2002-08-01
     date_end: 2006-05-31
     summary: |
-      Using play-by-play data to identify a better measure for defensive production in major league baseball and identify bias in voting for silver slugger.
+      Concentration in applied statistics. Capstone project used play-by-play data to identify a better measure for defensive production in major league baseball and identify bias in voting for silver slugger awards.
     button:
       text: 'Read more'
       url: 'https://christopherteixeira.com/project/mqp/'
@@ -50,11 +50,14 @@ education:
 work:
   - position: Principal Data Scientist
     company_name: MITRE
-    button:
-      url: https://www.mitre.org
-      text: Website
-    company_url: https://www.mitre.org
-    icon: media/icons/brands/Mitre_Corporation_logo.svg
+    # button:
+    #   url: https://www.mitre.org
+    #   text: Website
+    button: 
+      url: tags/mitre/
+      text: Related Projects
+    # company_url: https://www.mitre.org
+    # icon: media/icons/brands/Mitre_Corporation_logo.svg
     # company_logo: 'media/icons/brands/Mitre_Corporation_logo.svg'
     date_start: 2014-07-01
     date_end: ''
@@ -64,7 +67,10 @@ work:
       I am also passionate about driving innovation and cross-disciplinary collaboration. I have developed innovative technical solutions as an individual contributor and technical lead, integrating creativity and vision to drive success. Additionally, I have collaborated with cross-functional teams to implement cutting-edge data science solutions. My education background includes a Master of Science in Operations Research from George Mason University. I am also proficient in Python for Data Science and Computing for Data Analysis.
   - position: Senior Analytic Consultant
     company_name: Epsilon
-    company_url: 'www.epsilon.com'
+    button: 
+      url: tags/epsilon/
+      text: Related Projects
+    # company_url: 'www.epsilon.com'
     # company_logo: 'media/icons/brands/Mitre_Corporation_logo.svg'
     date_start: 2012-08-01
     date_end: 2014-06-01
@@ -74,7 +80,10 @@ work:
       I served as one subject matter experts in the following areas: NLP and text analytics, optimization, and big data solutions. Typical duties include hosting "lunch and learns", providing support on business development efforts, and producing code samples in multiple programming languages.
   - position: Advanced Analytics Senior Consultant
     company_name: IBM
-    company_url: 'www.ibm.com'
+    button: 
+      url: tags/ibm/
+      text: Related Projects
+    # company_url: 'www.ibm.com'
     # company_logo: 'media/icons/brands/Mitre_Corporation_logo.svg'
     date_start: 2011-11-01
     date_end: 2012-07-01
@@ -84,7 +93,10 @@ work:
       Supported JIEDDO using various analytical techniques including Analytic Hierarchy Process and Regression Analysis. Created and tested a metric to help support decision making for various groups of people working with JIEDDO. Improved existing products in Excel and Access using SAS code. Created SAS Stored Processes to help streamline report generation. Improved raw data cleansing and formatting using regular expression parsing. Streamlined a process to parse XML files and create new databases from the results. Developed SAS stored processes to support business intelligence and analytics. Designed a database to enhance reporting and help determine an optimal solution to a resource allocation problem.
   - position: Operations Research Analyst
     company_name: SAIC
-    company_url: 'www.saic.com'
+    # company_url: 'www.saic.com'
+    button: 
+      url: tags/saic/
+      text: Related Projects
     # company_logo: "icons/brands/Mitre_Corporation_logo.svg"
     date_start: 2006-06-01
     date_end: 2011-10-01
