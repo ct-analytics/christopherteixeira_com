@@ -10,7 +10,7 @@ last_name: Teixeira
 highlight_name: true
 
 # Role/position/tagline
-role: Department Chief Engineer
+role: Principal Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -119,38 +119,40 @@ email: ''
 
 skills:
   - name: Competencies
+    color: '#00235c'
+    color_border: '#6E98DB'
     items:
     - name: Mathematics
       description: ''
-      percent: 75
+      percent: 70
       icon: custom/calculator-solid
     - name: Data Science
       description: ''
-      percent: 75
+      percent: 100
       icon: custom/diagram-project-solid
     - name: Statistics
       description: ''
-      percent: 75
+      percent: 90
       icon: custom/chart-line-solid
     - name: Data Visualization
       description: ''
-      percent: 75
+      percent: 100
       icon: custom/chart-bar-solid
     - name: Data Engineering
       description: ''
-      percent: 75
+      percent: 90
       icon: custom/gears-solid
-    - name: Project Management
+    - name: Management
       description: ''
-      percent: 75
+      percent: 90
       icon: custom/list-check-solid
   - name: Technology
-    color: '#1e3b8a'
-    color_border: '#eff6ff'
+    color: '#003443'
+    color_border: '#61ADC2'
     items:
     - name: Python
       description: ''
-      percent: 75
+      percent: 70
       icon: custom/python-brands
     - name: R
       description: ''
@@ -158,11 +160,11 @@ skills:
       icon: custom/r-project-brands-solid
     - name: Tableau
       description: ''
-      percent: 75
+      percent: 80
       icon: custom/chart-simple-solid
     - name: PostgreSQL
       description: ''
-      percent: 40
+      percent: 60
       icon: custom/database-solid
     - name: SAS
       description: ''
@@ -170,15 +172,17 @@ skills:
       icon: custom/chart-pie-solid
     - name: R Shiny
       description: ''
-      percent: 75
+      percent: 70
       icon: custom/gauge-high-solid
   - name: Hobbies
-    color: '#1E7F8A'
-    color_border: '#269EAB'
+    # color: '#000f30'
+    # color_border: '#5874B0'
+    color: '#07BEFB'
+    color_border: '#2C3133'
     items:
     - name: Hiking
       description: ''
-      percent: 50
+      percent: 30
       icon: custom/person-hiking-solid
     - name: Dogs
       description: ''
@@ -190,15 +194,15 @@ skills:
       icon: custom/baseball-solid
     - name: Football
       description: ''
-      percent: 75
+      percent: 60
       icon: custom/football-solid
     - name: Running
       description: ''
-      percent: 50
+      percent: 40
       icon: custom/person-running-solid
     - name: Video games
       description: ''
-      percent: 50
+      percent: 70
       icon: custom/gamepad-solid
 
 
