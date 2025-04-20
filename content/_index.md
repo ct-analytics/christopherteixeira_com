@@ -20,6 +20,11 @@ sections:
     content:
       username: admin
       text: ""
+      # design:
+      #   banner:
+      #     # Upload a cover image to `assets/media/` folder and reference its filename here (optional)
+      #     filename: banner.png
+
       # button:
       #   text: Schedule a talk
       #   # icon: custom/person-chalkboard-solid.svg
@@ -31,6 +36,15 @@ sections:
   #       text: this is some text
   #       button: 
   #         text: test
+  #       design:
+  #         background:
+  #           # Choose colors such as from https://html-color-codes.info
+  #           gradient_start: '#4bb4e3'
+  #           gradient_end: '#2b94c3'
+  #           # The gradient angle from 0-360 degrees
+  #           gradient_angle: 180
+  #           # Text color (true=light, false=dark, or remove for the dynamic theme color).
+  #           text_color_light: true
   # - block: features
   #   content: 
   #     title: test features
