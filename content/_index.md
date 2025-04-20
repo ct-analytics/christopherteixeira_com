@@ -142,4 +142,16 @@ sections:
     design:
       view: date-title-summary
       columns: 1
+  # - block: stats
+  #   id: stats
+  #   content:
+  #     title: test stats
+  #     text: this is a section on stats
+  #     items:
+  #       - statistic: test stat 1
+  #         description: test description for stat 1
+  #       - statistic: test stat 2
+  #         description: test description for stat 2
+  #       - statistic: test stat 3
+  #         description: test description for stat 3
 ---
