@@ -1,116 +1,64 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
-  theme_day: minimal
-  theme_night: mr_robot_blue
-  font: minimal
-  font_size: M
+  mode: system
+  # color: color_scheme
+  color: sky
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: "Personal website for Christopher Teixeira, a data scientist using his skills for the public good. Here you'll find information about his career path, example project work, and some of his side projects applying his skills in other domains."
-    twitter: 'CT_analytics'
+    description: 'This is a personal site for Christopher Teixeira highlighting his career and showing a portfolio of skills and achievements. '
+    twitter: ''
   analytics:
-    google_analytics: 'G-WXNS8JGMJ5' 
+    google_analytics: ''
     baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
   verification:
     google: ''
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: false
+    blox: "navbar"
+    align: "right"
+    fixed_to_top: true
     show_search: true
+    show_theme_chooser: false
     highlight_active_link: true
+    logo:
+      text: "Christopher Teixeira"
+      filename: "icon.png"
 
 # Site footer
-
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license}.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
 
 # Site features
-
 features:
-  syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
-      - python
-      - sas
-      - bash
-      - dockerfile
-      - html
   math:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: 'https://github.com/ct-analytics/christopherteixeira_com'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
