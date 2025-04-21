@@ -44,7 +44,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}.'
+    notice: '© {year} Christopher Teixeira.'
     license:
       enable: false
       allow_derivatives: false
