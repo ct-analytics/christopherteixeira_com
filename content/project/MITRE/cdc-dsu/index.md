@@ -14,7 +14,7 @@ categories:
 - Data Visualization
 - Data Analytics
 date: 2021-04-02T13:05:31-04:00
-active: false 
+# active: false 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
