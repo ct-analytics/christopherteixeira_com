@@ -54,3 +54,7 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+deployment:
+  targets:
+    - name: AWS_S3_christopherteixeira.com
+      URL: s3://christopherteixeira.com?region=us-east-1
