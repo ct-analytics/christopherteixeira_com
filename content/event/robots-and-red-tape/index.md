@@ -1,11 +1,11 @@
 ---
-title: Robots and RedTable
+title: "From Data to Decisions: MITRE’s Approach to Responsible AI with Christopher Teixeira"
 draft: false
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: Robots and Red Tape Podcast
+# event_url: https://example.org
 
-summary: A discussion on data quality, how it impacts machine learning models, and overreliance on models.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: "Dive into the complexities of building reliable AI models in high-stakes environments, where data integrity can mean the difference between success and unintended consequences."
+abstract: 'Join host Nick Schutt on Robots & Red Tape as he sits down with Christopher Teixeira, Principal Data Scientist at MITRE, to explore the critical role of data quality in powering AI-driven decisions for public health and human welfare.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -24,22 +24,34 @@ tags:
 
 categories:
 - Machine Learning
+- Artificial Intelligence
+- Data Quality
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption: 'Image credit: [**Robots and Red Tape**](https://rss.com/podcasts/robotsandredtape/)'
+  focal_point: left 
+  preview_only: false
+  
 
-#links:
+# links:
 # url_code: 'https://github.com'
 # url_pdf: ''
 # url_slides: 'https://slideshare.net'
-url_video: 'https://www.youtube.com/watch?v=h8n5vneacis'
+url_video: 'https://www.youtube.com/watch?v=80IkcJI2hkc'
 
 slides: ""
 
 projects: []
 ---
 
+Dive into the complexities of building reliable AI models in high-stakes environments, where data integrity can mean the difference between success and unintended consequences. In this thoughtful conversation, discover:
+
+- How MITRE leverages high-quality data to support agencies like the CDC and CMS, driving impactful public health outcomes.
+- Real-world lessons from Chris’s career, including how strategic data selection can optimize AI performance without sacrificing accuracy.
+- The importance of diverse teams and continuous model evaluation to ensure ethical, effective AI applications.
+- Strategies for balancing AI’s potential with human oversight to address challenges in child welfare and beyond.
+
+Ideal for data scientists, policymakers, and tech enthusiasts eager to understand how AI and data can shape a better future when guided by rigor and responsibility.
