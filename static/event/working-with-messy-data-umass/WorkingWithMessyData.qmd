@@ -525,7 +525,7 @@ Pins can be automatically versioned, making it straightforward to track changes,
 
 [{{< fa brands linkedin size=xl >}} in/christopherteixeira](https://www.linkedin.com/in/christopherteixeira/)
 
-[{{< fa brands github size=xl >}} ct-analytics](https://github.com/ct-analytics)
+[{{< fa brands github size=xl >}} christopher-teixeira](https://github.com/christopher-teixeira)
 
 :::
 

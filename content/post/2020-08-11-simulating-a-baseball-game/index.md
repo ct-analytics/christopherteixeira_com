@@ -53,5 +53,5 @@ This is really a work in progress since I'd like to build it out a bit. Here's w
 - Add in ability for lineup substitutions.
 
 ### Links:
-- [Github repository](https://github.com/ct-analytics/baseball-dp)
+- [Github repository](https://github.com/christopher-teixeira/baseball-dp)
 - [Original Problem website](http://www.footballcommentary.com/bbmodel.htm)

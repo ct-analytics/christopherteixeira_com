@@ -89,7 +89,7 @@ I ended up using [https://si.gnatu.re/](https://si.gnatu.re/) since it gave me a
             </a>
           </td>
           <td style="padding-right:5px">
-            <a href="https://github.com/ct-analytics" style="display: inline-block;">
+            <a href="https://github.com/christopher-teixeira" style="display: inline-block;">
               <img width="40" height="40" src="https://s1g.s3.amazonaws.com/cedb8206a2a61cb5489bb6976efedf14.png" alt="Github" style="border:none;">
             </a>
           </td>
