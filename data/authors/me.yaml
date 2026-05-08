@@ -69,6 +69,16 @@ education:
 
 
 experience:
+  - role: Data Scientist
+    org: Keystone
+    # icon: custom/Keystone_Logo
+    button: 
+      url: tags/keystone/
+      text: Related Projects
+    start: 2026-04-20
+    end: null
+    summary: |2-
+      As a Staff Data Scientist at Keystone, I work within an interdisciplinary team to address complex challenges in AI and emerging technology regulation. My role involves designing and deploying scalable machine learning models and analytical pipelines to provide defensible insights for litigation strategy and regulatory advisory. By transforming unstructured datasets into actionable intelligence, I help advise global technology leaders and governments on the business and economic impacts of breakthrough innovations.
   - role: Principal Data Scientist
     org: MITRE
     # icon: custom/Mitre_Corporation_logo
